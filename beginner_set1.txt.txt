@@ -1,0 +1,302 @@
+Q1.
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+
+class GUVI
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+        Scanner s=new Scanner(System.in);
+        int a=s.nextInt();
+        if(a>0)
+            System.out.println("Positive");
+        else if(a<0)
+            System.out.println("Negetive");
+        else if(a==0)
+            System.out.println("Zero");
+        
+    }
+			
+}
+------------------------------------------------------------------------------------------
+Q2.
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+
+class GUVI
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+        Scanner s=new Scanner(System.in);
+        int a=s.nextInt();
+        if(a%2==0)
+            System.out.println("Even");
+        else 
+            System.out.println("odd");
+        
+        
+    }
+			
+}
+------------------------------------------------------------------------------------------
+Q3.
+
+/* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class GUVI
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+       char n;
+        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+        
+        n = (char) bf.read();
+        switch(n)
+        {
+            case 'a':
+            System.out.println("The given character "+n+" is vowel");
+            break;
+ 
+            case 'e':
+            System.out.println("The given character "+n+" is vowel");
+            break;
+ 
+            case 'i':
+            System.out.println("The given character "+n+" is vowel");
+            break;
+ 
+            case 'o':
+            System.out.println("The given character "+n+" is vowel");
+            break;
+ 
+            case 'u':
+            System.out.println("The given character "+n+" is vowel");
+            break;
+            
+            case 'A':
+            System.out.println("The given character "+n+" is vowel");
+            break;
+ 
+            case 'E':
+            System.out.println("The given character "+n+" is vowel");
+            break;
+ 
+            case 'I':
+            System.out.println("The given character "+n+" is vowel");
+            break;
+ 
+            case 'O':
+            System.out.println("The given character "+n+" is vowel");
+            break;
+ 
+            case 'U':
+            System.out.println("The given character "+n+" is vowel");
+            break;
+ 
+            default:
+            System.out.println("The given character "+n+" is consonant");
+            break;
+        }
+
+        
+    }
+			
+}
+
+-------------------------------------------------------------------------------------
+
+Q4.
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+
+class GUVI
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+        Scanner s=new Scanner(System.in);
+        //String q=;
+        char a=s.next().charAt(0);
+        if(a>=65&&a<123)
+            System.out.println("Alphabet");
+        
+        
+        
+    }
+			
+}
+------------------------------------------------------------------------------------------
+
+Q5.
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+ 
+/* Name of the class has to be "Main" only if the class is public. */
+class GUVI
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+        Scanner s=new Scanner(System.in);
+ 
+        int a=s.nextInt();
+ 		int b=s.nextInt();
+ 		int c=s.nextInt();
+ 
+        if(a>b){
+                if(a>c)
+        		 {
+        			 System.out.println("Greatest number is "+ a);
+				 }
+				else {
+				System.out.println("Greatest number is "+ c);
+				}
+        }
+else if(b>c)
+{System.out.println("Greatest number is "+ b);
+}
+else {System.out.println("Greatest number is "+ c);
+}
+ 
+ 
+    }
+ 
+}
+
+------------------------------------------------------------------------------------------
+ Q6.
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class GUVI
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+        Scanner s=new Scanner(System.in);
+        int i=0,j=0; 
+        int a=s.nextInt();
+        if(a%100==0)
+        {if(a%400==0)
+        System.out.println("Leap Year");
+        }
+        else if(a%4==0)
+        {System.out.println("Leap Year");
+        }
+        
+ 	
+        
+    }
+			
+}
+------------------------------------------------------------------------------------------
+
+Q7.
+
+public class sol10
+{
+	public static void main(String[] agrs)
+	{
+		String s="Hello";
+		for(int i=0;i<5;i++)
+			System.out.println(s+"\n");
+	}
+}
+
+------------------------------------------------------------------------------------------
+ Q8.
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int x, i = 1 ;
+        int sum = 0;
+        System.out.println("Enter Number of items :");
+        Scanner s = new Scanner(System.in);
+        x = s.nextInt();
+        for(int f=1;f<=x;f++)
+        {
+            sum = sum +f;
+            
+        }
+        System.out.println("Sum of "+x+" numbers is :"+sum);
+		// your code goes here
+	}
+}
+------------------------------------------------------------------------------------------
+Q9.
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int x, i = 1 ;
+        int sum = 0;
+        System.out.println("Enter Number of items :");
+        Scanner s = new Scanner(System.in);
+        x = s.nextInt();
+        for(int f=1;f<=x;f++)
+        {
+            sum = sum +f;
+            
+        }
+        System.out.println("Sum of "+x+" numbers is :"+sum);
+		// your code goes here
+	}
+}
+------------------------------------------------------------------------------------------
+Q10.
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class GUVI
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+        Scanner s=new Scanner(System.in);
+        int i=0,j=0; 
+        int a=s.nextInt();
+ 		for(i=a;i>0;i=i/10)
+ 		{j++;
+ 		}
+ 		System.out.println(j);
+
+        
+    }
+			
+}
+
+
+
